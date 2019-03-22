@@ -14,5 +14,6 @@ server.get("/", (req, res) => {
 });
 
 server.use("/api", actionsRouter);
+server.use("/api", projectsRouter);
 
 module.exports = server;
